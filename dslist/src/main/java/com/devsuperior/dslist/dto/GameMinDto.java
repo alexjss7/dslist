@@ -11,6 +11,9 @@ public class GameMinDto {
     private String imgUrl;
     private String shortDescription;
 
+    public GameMinDto() {
+
+    }
 
     public GameMinDto(Game entity) {
         id = entity.getId();
